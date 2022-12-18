@@ -1,0 +1,30 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+package finalproject;
+
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+import finalproject.system.Tile;
+
+public class SafestShortestPath extends ShortestPath {
+	public int health;
+	public Graph costGraph;
+	public Graph damageGraph;
+	public Graph aggregatedGraph;
+
+	//TODO level 8: finish class for finding the safest shortest path with given health constraint
+	public SafestShortestPath(Tile start, int health) {
+		super(start);
+		this.health = health;
+	}
+
+	
+	public void generateGraph() {
+		// TODO Auto-generated method stub
+	}
+
+}
